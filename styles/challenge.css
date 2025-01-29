@@ -1,0 +1,281 @@
+
+.work-sans{
+    font-family: monospace;
+  font-weight: 900;
+  font-style: normal
+}
+/* banner styles */
+/* shared styles */
+.banner-start{
+    margin-bottom: 100px;
+}
+.navigation{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-between; 
+}
+.navigation button{
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: white;
+    width: 200px;
+    height: 55px;
+    border-radius: 8px; 
+}
+.navigation h2{
+    font-size: 30px;
+    font-weight: 1200;
+}
+
+
+.Banner-hero{
+    padding-top: 50px;
+    height: 600px;
+    background-image: url(../images/assets/Hero-bg.png);
+    background-size: contain;
+    text-align: center;
+}
+.banner-heading{
+    font-size: 48px;
+    font-weight: 900;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+.banner-description{
+    padding-left: 200px;
+    padding-right: 200px; 
+    font-size: 16px;
+    color: #90949b;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+.banner-btn{
+    width: 244px;
+    height: 65px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+/* main styles */
+.web-developments{
+    width: 900px;
+    height: 1300px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 70px;
+    border-radius: 16px;
+    padding: 50px 97px 50px 97px;
+    margin-bottom: 100px;
+  
+}
+.web-intro{
+    text-align: center;
+}
+.web-intro h1{
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+}
+.web-development-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #4d5056;
+    padding-bottom: 20px;
+}
+.web-development-part-1{
+    margin-bottom: 30px;
+    height: 240px;
+    display: flex;
+    gap: 180px;
+    padding: 48px;
+    border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.web-development-part-1 h1{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+font-weight: 700;
+line-height: 26px;
+
+}
+.web-btn{
+    font-family: monospace;
+    padding: 12px 20px 12px 20px;
+    background-color: white;
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 20px;
+    font-weight: 800;
+
+}
+/* My inspriation section */
+.Inspiration{
+    margin-bottom: 150px;
+}
+.Inspiration-video{
+    width: 1000px;
+    height: 600px;
+    padding: 40px;
+    margin: 70px;
+    border: 1px solid rgb(184, 176, 176);
+    border-radius: 16px;
+}
+.Inspiration-video iframe{
+    border-radius: 16px;
+}
+.Inspiration h1, .currant-shared-heading{
+color: rgb(13, 19, 33);
+font-size: 32px;
+font-weight: 900;
+line-height: 37px;
+text-align: center;
+}
+.Inspiration p, .currant-shared-description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #4d5056;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* My Current Target */
+.card-box{
+    display: flex;
+    gap: 25px;
+    margin: 80px;
+    margin-bottom: 100px;
+}
+.card-1{
+    width: 320px;
+    height: 210px;
+    padding: 40px;
+    background: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+}
+.card-2{
+    width: 320px;
+    padding: 40px;
+    height: 210px;
+    background: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.card-3{
+    width: 320px;
+    height: 210px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+    border-radius: 16px;
+}
+.shared-heading{
+color: rgb(13, 19, 33);
+font-size: 24px;
+font-weight: 900;
+line-height: 30px;
+}
+.shared-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #4d5056;
+}
+.connection{
+color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 800;
+}
+/* My Currant Target styles */
+.card-parent{
+    margin: 80px;
+}
+.target-card{
+    display: flex;
+    gap: 30px;
+    width: 1000px;
+    height: 160px;
+    border: 1px solid rgb(170, 165, 165);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 16px;
+}
+.target-card img{
+    padding-top: 40px;
+}
+/* I Need support styles */
+.support-section{
+background-image:  linear-gradient(200deg, rgb(4, 0, 0),rgba(83, 77, 77, 0)) , url(../images/assets/handshake.jpg);
+height: 250px;
+width: 980px;
+margin: 80px;
+padding: 40px;
+background-size: auto;
+background-position: center;
+background-repeat: no-repeat;
+border-radius: 16px;
+text-align: center;
+
+}
+.support-section h1, p{
+    color: rgb(255, 255, 255);
+}
+.support-section h1{
+color: rgb(255, 255, 255);
+font-size: 32px;
+font-weight: 700;
+line-height: 36px;
+}
+.support-section p{
+color: rgb(198, 193, 193);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.support-feedback{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.support-feedback p{
+    margin-left: 100px;
+    background-color: white;
+    width: 500px;
+    height: 30px;
+    text-align: start;
+    padding: 10px;
+    border-radius: 10px;
+}
+.support-feedback button{
+    margin-top: 16px;
+    border: none;
+    width: 120px;
+    height: 50px;
+    padding: 17px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+}
+/* footer styles */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+   padding: 32px 150px 32px 150px;
+}
+.footer-section p{
+color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 700;
+}
+.footer-section img{
+margin-top: 15px;
+margin-left: 15px;
+}
